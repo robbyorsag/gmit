@@ -1,0 +1,24 @@
+import datetime
+# First we need to import date and time
+# so that Python knows how to calculate it
+
+if datetime.datetime.today().weekday() == 1:
+# "if" function works if we set a condition.
+# In this case the condition is days that begin
+# with a letter T.
+# Python calculates the number of days in the week
+# by startin with 0 as Monday, and ending with a 6
+# as Sunday. So, we need 1 and 3 in order
+# to print " Yes today begins with a T"
+    
+    print ("Yes, today begins with a T")
+
+    if datetime.datetime.today().weekday() == 3:
+
+        print ("Yes, today begins with a T")
+
+else:
+     print (" No today does not begin with a T")
+# If the days are not 1 or 3 a.k.a Tuesday and Thursday
+# Python will then print " No today does not begin
+# with a T"
