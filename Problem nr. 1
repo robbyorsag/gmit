@@ -1,0 +1,23 @@
+x = int(input("Please enter a positive integer: "))
+# Entering a positive integer
+
+
+sum = 0
+# Setting the beggining value from which 
+#Python will start to add 
+#numbers in the range from 0 up to x+1, to zero
+
+for x in range(0,(x + 1)):
+# (x + 1) - because the "range" function does not
+# include the last number
+
+  sum = sum + x
+# sum is set to zero, the range is from 0 to x+1
+# which means the sum value will change every time
+# the "for" statement loops, 
+# i.e. sum = sum(0)+x(in the range from 0 to (x+1))
+# now the new value of sum = 1, then 2, then 3
+# and so on up to x+1
+
+print (sum)
+# prints the final value of sum
